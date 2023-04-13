@@ -8,7 +8,7 @@ for($i=0;$i<$coun;$i++)
 {
     if($text[$i]!=" ")
     {
-        $in=intval($text[$i]);
+        $in=ord($text[$i]);
         $in=$in+$key;
         if($in>122)
         {
